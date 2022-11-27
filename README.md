@@ -17,4 +17,3 @@ It is an Ecommerce API, I created as an assignment for Coding Ninjas.
 
 <p>Give it a star 💫⭐ if you like this project</p>
 
-<p>Give it a star 💫⭐ if you like this project</p>
