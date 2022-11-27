@@ -14,4 +14,8 @@ It is an Ecommerce API, I created as an assignment for Coding Ninjas.
 
 <h2></h2>
 <p>It is the very basic version of Rest APIs and I have made this project using Node.js, Express.js, MongoDB, and Mongoose.</p>
+<<<<<<< HEAD
 <p>Give it a star 💫⭐ if you like this project</p>
+=======
+<p>Give it a star 💫⭐ if you like this project</p>
+>>>>>>> fae64b5f3791e0148064292887361cf6dcf85048
