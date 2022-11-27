@@ -1,5 +1,6 @@
+require('dotenv').config()
 const mongoose = require('mongoose')
-const uri = 'mongodb://localhost:27017/ecommerceDB'
+const uri = process.env.MONGO_URI
 mongoose.connect(uri, {
     useNewUrlParser: true, useUnifiedTopology: true
 }).then(data => {
