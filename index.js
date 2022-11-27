@@ -1,6 +1,8 @@
 
 const express = require('express')
 const PORT = process.env.PORT || 3000
+const dotenv = require('dotenv')
+const connectDB = require('./db/connect')
 const products = require('./routes/products')
 const notFound = require('./middleware/not-found')
 
@@ -9,6 +11,7 @@ require('./db/connect')
 
 const app = express()
 
+dotenv.config()
 
 // Middlewares
 app.use(express.json())
@@ -24,3 +27,5 @@ app.listen(PORT, (err) => {
 
     console.log(`The Express Server is up and running on PORT: ${PORT}...`)
 })
+
+connectDB()
